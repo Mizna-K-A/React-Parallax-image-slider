@@ -1,0 +1,41 @@
+/* Parallax Banner Section */
+.banner {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+.about-section {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.destinations-section .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.contact-section .card {
+  height: 100%;
+}
+
+.footer {
+  text-align: center;
+}
+
